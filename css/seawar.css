@@ -1,1 +1,76 @@
+@CHARSET "UTF-8";
 
+
+td{
+	width: 32px;
+	height: 32px;
+	border: 1px solid blue;	
+	text-align: center;
+	vertical-align: center;
+}
+
+.topHead{
+	
+	border: 0px solid white;
+	border-bottom: 1px solid blue;
+	background-color: white;	
+	color: red;
+	font-weight: bold;
+}
+
+.noBorder{
+	border: 0px solid white;
+	background-color: white;
+}
+
+.leftHead{
+	
+	border: 0px solid white;
+	border-right: 1px solid blue;
+	border-bottom: 1px solid white;	
+	background-color: white;
+	color: red;
+	font-weight: bold;	
+}
+
+.field{
+	background-image: url('../img/fon.png');
+	background-position: center;
+	margin: auto;	
+}
+
+
+.ship{
+	background-image: url('../img/paluba.png');
+	background-position: center;
+	margin: auto;	
+}
+
+
+.dameShip{
+	background: url('../img/ranen.png') center center no-repeat;	
+	margin: auto;	
+}
+
+
+.killShip{
+	background-image: url('../img/ubit.png');
+	background-position: center;
+	margin: auto;	
+}
+
+.nearKill{
+	background-image: url('../img/near.png');
+	background-position: center;
+	margin: auto;	
+}
+
+.bomb{
+	background-image: url('../img/bomba.png');
+	background-position: center;
+	margin: auto;	
+}
+
+.gun{
+	cursor: crosshair;
+}
