@@ -489,7 +489,7 @@ class Field extends React.Component{
                 el.map(function(el, x){
                     
                     var className = "";
-                    var value = el;
+                    var value = "";
                                                             
                     if(!(y == 0 && x == 0)){
                         
@@ -530,7 +530,7 @@ class Field extends React.Component{
                         className = "noBorder";
                     }
                     
-                    return <td key={x} x={x} y={y} className={className} onClick={this.props.isUser ? "": (e) => this.props.shot(e)}></td>;
+                    return <td key={x} x={x} y={y} className={className} onClick={this.props.isUser ? "": (e) => this.props.shot(e)}>{value}</td>;
                     }.bind(this))
             );
     }
